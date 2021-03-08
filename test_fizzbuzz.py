@@ -11,9 +11,9 @@ class Testcase(unittest.TestCase):
         self.assertEqual(fb.fizzbuzz(13), 13)
 
     def test_fizzes(self):
-        self.assertEqual(fb.fizzbuzz(), "Fizz")
-        self.assertEqual(fb.fizzbuzz(), "Fizz")
-        self.assertEqual(fb.fizzbuzz(), "Fizz")
+        self.assertEqual(fb.fizzbuzz(3), "Fizz")
+        self.assertEqual(fb.fizzbuzz(6), "Fizz")
+        self.assertEqual(fb.fizzbuzz(9), "Fizz")
 
     #def test_Buzzes(self):
     #    self.assertEqual(fb.fizzbuzz(5), "Buzz")
