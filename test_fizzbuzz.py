@@ -2,7 +2,7 @@ import unittest
 import fizzbuzz as fb
 
 class Testcase(unittest.TestCase):
-    if (__name__ == '__main__'):
+    if __name__ == '__main__':
         unittest.main()
 
     def test_None(self):
