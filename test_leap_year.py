@@ -16,6 +16,6 @@ class Testcase(unittest.TestCase):
         self.assertEqual(ly.leap_year(8), "Yes")
 
     def test_Multi100_NonMulti400(self):
-        self.assertEqual(ly.leap_year(200), "Yes")
-        self.assertEqual(ly.leap_year(500), "Yes")
-        self.assertEqual(ly.leap_year(1100), "Yes")
+        self.assertEqual(ly.leap_year(200), "No")
+        self.assertEqual(ly.leap_year(500), "No")
+        self.assertEqual(ly.leap_year(1100), "No")
