@@ -1,8 +1,8 @@
 def fizzbuzz(number):
-    if(number%3 == 0 and number%5 ==0):
+    if number%3 == 0 and number%5 ==0:
         return "FizzBuzz"
-    elif (number%5 == 0):
+    elif number%5 == 0:
         return "Buzz"
-    elif (number%3 == 0):
+    elif number%3 == 0:
         return "Fizz"
     return number
